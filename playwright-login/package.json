@@ -1,0 +1,14 @@
+{
+  "name": "playwright-login",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript migration POC — Login module converted from Selenium/Java",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "typescript": "^5.4.0"
+  }
+}
