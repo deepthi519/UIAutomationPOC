@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Selenium Java baseline + Playwright TypeScript migration POC",
   "scripts": {
-    "test:playwright": "cd playwright-login && npx playwright test",
-    "test:playwright:headed": "cd playwright-login && npx playwright test --headed",
-    "test:playwright:report": "cd playwright-login && npx playwright show-report"
+    "test:playwright": "npx playwright test",
+    "test:playwright:headed": "npx playwright test --headed",
+    "test:playwright:report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "typescript": "^5.4.0"
   }
 }
