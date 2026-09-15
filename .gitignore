@@ -8,3 +8,6 @@ playwright-login/node_modules/
 playwright-login/playwright-report/
 playwright-login/test-results/
 playwright-login/dist/
+
+# Office temp lock files
+~$*
