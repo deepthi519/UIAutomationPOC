@@ -1,0 +1,10 @@
+{
+  "name": "ui-automation-poc",
+  "version": "1.0.0",
+  "description": "Selenium Java baseline + Playwright TypeScript migration POC",
+  "scripts": {
+    "test:playwright": "cd playwright-login && npx playwright test",
+    "test:playwright:headed": "cd playwright-login && npx playwright test --headed",
+    "test:playwright:report": "cd playwright-login && npx playwright show-report"
+  }
+}
